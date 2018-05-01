@@ -36,7 +36,7 @@ public class QuizActivity extends AppCompatActivity {
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                checkAnswer(True);
+                checkAnswer(true);
             }
         });
 
